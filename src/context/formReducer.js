@@ -3,6 +3,9 @@ export const initialState = {
   name: '',
   email: '',
   phone: '',
+  plan: '',
+  price: '',
+  billing: 'monthly',
 };
 
 export function formReducer(state, action) {
