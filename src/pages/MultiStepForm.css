@@ -1,0 +1,30 @@
+/* MAIN CONTAINER */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-color: #eef5ff;
+}
+
+/* WRAPPER (CARD) */
+.form-wrapper {
+  display: flex;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+/* CONTENT AREA */
+.content {
+  padding: 40px;
+
+  width: 500px;
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

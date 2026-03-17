@@ -1,3 +1,4 @@
+import './Step1.css';
 import { useState } from 'react';
 import { useForm } from '../context/FormContext';
 
